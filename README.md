@@ -12,9 +12,9 @@
 ## Status
 
 :construction: In progress ! :construction:  
-:white_check_mark: Initial configuration of the project dependencies
-:negative_squared_cross_mark: Sudoku solver helper functions  
-:negative_squared_cross_mark: Sudoku solver algorithm  
+:white_check_mark: Initial configuration of the project dependencies 
+:negative_squared_cross_mark: Setup basic server
+:negative_squared_cross_mark: Add Models-Service-Routes-Controllers pattern 
 :negative_squared_cross_mark: Update README.md and add CONTRIBUTING.md  
 
 ## Installation
