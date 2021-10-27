@@ -12,9 +12,10 @@
 ## Status
 
 :construction: In progress ! :construction:  
-:white_check_mark: Initial configuration of the project dependencies 
-:negative_squared_cross_mark: Setup basic server
-:negative_squared_cross_mark: Add Models-Service-Routes-Controllers pattern 
+:white_check_mark: Initial configuration of the project dependencies  
+:white_check_mark: Setup basic server  
+:negative_squared_cross_mark: Add Models-Service-Routes-Controllers pattern   
+:negative_squared_cross_mark: Add template files   
 :negative_squared_cross_mark: Update README.md and add CONTRIBUTING.md  
 
 ## Installation
