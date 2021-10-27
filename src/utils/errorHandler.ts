@@ -1,9 +1,14 @@
-import createError from 'http-errors';
-import {HttpError} from 'http-errors';
-import {Request, Response, NextFunction} from "express";
+import createError from "http-errors";
+import { HttpError } from "http-errors";
+import { Request, Response, NextFunction } from "express";
 
 // eslint-disable-next-line no-unused-vars
-function errorHandler(err: HttpError, req: Request, res: Response, next: NextFunction) {
+function errorHandler(
+  err: HttpError,
+  req: Request,
+  res: Response,
+  next: NextFunction
+) {
   // eslint-disable-next-line no-console
   /* istanbul ignore next */
   console.error(err);
@@ -13,6 +18,6 @@ function errorHandler(err: HttpError, req: Request, res: Response, next: NextFun
   } else {
     res.status(500).send(new createError.InternalServerError());
   }
-};
+}
 
 export default errorHandler;

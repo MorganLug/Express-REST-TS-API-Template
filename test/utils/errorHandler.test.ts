@@ -1,12 +1,14 @@
-import createError from 'http-errors';
-import errorHandler from '@App/utils/errorHandler';
-import { Response } from 'jest-express/lib/response';
-import { Request } from 'jest-express/lib/request';
+import createError from "http-errors";
+import errorHandler from "@App/utils/errorHandler";
+import { Response } from "jest-express/lib/response";
+import { Request } from "jest-express/lib/request";
 
 let request, response;
 
 beforeAll(() => {
-  jest.spyOn(console, 'error').mockImplementation((err) => {console.log(err)});
+  jest.spyOn(console, "error").mockImplementation((err) => {
+    console.log(err);
+  });
 });
 
 beforeEach(() => {
