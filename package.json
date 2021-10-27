@@ -11,6 +11,7 @@
     "windows-dev": "SET NODE_ENV=development&& npx nodemon --exec ts-node ./src/index.ts  --watch src --ext .ts",
     "test": "jest",
     "test:watch": "jest --watchAll",
+    "test:coverage": "jest --coverage",
     "lint": "eslint .",
     "lint:fix": "eslint --fix ."
   },
@@ -26,6 +27,7 @@
     "eslint": "^8.1.0",
     "eslint-config-prettier": "^8.3.0",
     "jest": "^27.3.1",
+    "jest-express": "^1.12.0",
     "nodemon": "^2.0.14",
     "prettier": "^2.4.1",
     "supertest": "^6.1.6",
@@ -34,7 +36,9 @@
     "typescript": "^4.4.4"
   },
   "dependencies": {
+    "@types/http-errors": "^1.8.1",
     "express": "^4.17.1",
+    "http-errors": "^1.8.0",
     "reflect-metadata": "^0.1.13",
     "typeorm": "^0.2.38"
   }
