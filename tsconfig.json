@@ -2,7 +2,6 @@
   "compilerOptions": {
     "lib": ["es5", "es6", "dom"],
     "baseUrl": ".",
-    "paths": { "@App/*": ["src/*"] },
     "target": "es5",
     "module": "commonjs",
     "esModuleInterop": true,
@@ -12,5 +11,5 @@
     "outDir": "build",
     "sourceMap": false,
   },
-  "include": ["src"]
+  "include": ["src", "test"]
 }

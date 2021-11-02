@@ -1,5 +1,5 @@
 import createError from "http-errors";
-import errorHandler from "@App/utils/errorHandler";
+import errorHandler from "src/utils/errorHandler";
 import { Response } from "jest-express/lib/response";
 import { Request } from "jest-express/lib/request";
 
