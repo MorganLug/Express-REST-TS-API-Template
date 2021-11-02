@@ -1,6 +1,6 @@
 import request from "supertest";
 
-import app from "@App/app";
+import app from "src/app";
 
 beforeEach(() => {
   jest.spyOn(console, "error").mockImplementation((err) => {

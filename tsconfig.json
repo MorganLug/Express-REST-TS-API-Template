@@ -2,7 +2,6 @@
   "compilerOptions": {
     "lib": ["es5", "es6", "dom"],
     "baseUrl": ".",
-    "paths": { "@App/*": ["src/*"] },
     "target": "es5",
     "module": "commonjs",
     "esModuleInterop": true,
@@ -10,6 +9,7 @@
     "emitDecoratorMetadata": true,
     "experimentalDecorators": true,
     "outDir": "build",
-    "sourceMap": true
-  }
+    "sourceMap": false,
+  },
+  "include": ["src", "test"]
 }

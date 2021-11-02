@@ -2,7 +2,7 @@ import express from "express";
 import { Request, Response, NextFunction } from "express";
 import createError from "http-errors";
 
-import errorHandler from "@App/utils/errorHandler";
+import errorHandler from "src/utils/errorHandler";
 
 const app = express();
 
